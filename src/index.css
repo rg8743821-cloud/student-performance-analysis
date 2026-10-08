@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* Hide navigation, sidebars and toolbars when printing */
+  aside,
+  header,
+  nav,
+  button,
+  .print\:hidden {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  #printable-report {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+}

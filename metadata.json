@@ -1,0 +1,6 @@
+{
+  "name": "Student Performance Analysis System",
+  "description": "Professional academic analytics platform for tracking student marks, attendance trends, subject performance, and personalized improvement plans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
